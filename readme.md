@@ -22,5 +22,5 @@ gulp
 gulp docs
 ```
 
-[Смотреть демо](https://github.com/hyfvmitw/Elegant-store)
+[Смотреть демо](https://hyfvmitw.github.io/Elegant-store/)
 
