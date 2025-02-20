@@ -5,6 +5,4 @@
 - Gulp,
 - JS
 
-<!-- [Смотреть демо](https://hyfvmitw.github.io/Elegant-store/){target="_blank"} -->
-
-<a href="https://hyfvmitw.github.io/Elegant-store/" target="_blank">Смотреть демо</a>
+[Смотреть демо](https://hyfvmitw.github.io/Elegant-store/)
