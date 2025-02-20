@@ -1,0 +1,166 @@
+.footer {
+	padding: 80px 0 32px;
+	background-color: #141718;
+
+	@include mobile {
+		padding: 48px 0;
+	}
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 57px;
+
+	@include mobile {
+		display: block;
+		margin-bottom: 40px;
+	}
+}
+
+.footer__title {
+	display: flex;
+
+	@include mobile {
+		flex-direction: column;
+		gap: 16px;
+		margin-bottom: 40px;
+	}
+}
+
+.footer__logo {
+	position: relative;
+	font-family: var(--font-accent);
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1;
+	text-align: center;
+	color: #fff;
+	padding-right: 32px;
+
+	@include mobile {
+		padding-right: 0;
+		padding-bottom: 16px;
+	}
+
+	&::before {
+		position: absolute;
+		content: "";
+		width: 1px;
+		height: 24px;
+		top: 0;
+		right: 0;
+		background-color: #6C7275;
+
+		@include mobile {
+			width: 24px;
+			height: 1px;
+			left: 50%;
+			top: 100%;
+			transform: translateX(-50%);
+
+		}
+	}
+
+}
+
+.logo-dot {
+	color: #6c7275;
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.footer__store {
+	color: #E8ECEF;
+	font-size: 14px;
+	line-height: 1.57;
+	padding-left: 32px;
+
+	@include mobile {
+		text-align: center;
+		padding-left: 0;
+	}
+
+}
+
+.footer__nav {
+	display: flex;
+	gap: 40px;
+
+	@include mobile {
+		flex-direction: column;
+		align-items: center;
+		gap: 32px;
+	}
+}
+
+.footer__link {
+	color: #FEFEFE;
+	font-size: 14px;
+	line-height: 1.57;
+}
+
+.footer__row--border {
+	border-top: 1px solid #6C7275;
+
+}
+
+.footer__copyright-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// margin-bottom: 57px;
+	padding: 16px 0 20px;
+
+	@include mobile {
+		flex-direction: column-reverse;
+		padding: 24px 0 24px;
+	}
+}
+
+.footer__copyrights {
+	color: #E8ECEF;
+	display: flex;
+	gap: 28px;
+
+	p {
+		font-size: 12px;
+		line-height: 1.6666667;
+		color: #E8ECEF;
+	}
+
+	a {
+		color: #FEFEFE;
+		font-family: var(--font-accent);
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1.6666667;
+	}
+
+	@include mobile {
+		flex-direction: column-reverse;
+	}
+}
+
+.copyrights__links {
+	display: flex;
+	gap: 28px;
+
+	@include mobile {
+		margin-bottom: 28px;
+		justify-content: center;
+	}
+
+}
+
+.footer__socials {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+
+	@include mobile {
+		margin-bottom: 32px;
+	}
+}

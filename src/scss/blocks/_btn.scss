@@ -1,0 +1,42 @@
+.btn {
+    display: inline-block;
+    padding: 12px 56px;
+    
+    border-radius: 8px;
+    background-color: #141718;
+    
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    line-height: 1.777;
+    text-align: center;
+
+    transition: all 0.2s ease-in;
+
+    @include mobile {
+        font-size: 14px;
+        line-height: 1.7143;
+        letter-spacing: 0;
+    }
+
+    &--small {
+        font-size: 16px;
+        line-height: 1.75;
+        padding: 9px 40px; 
+
+        @include mobile {
+            font-size: 14px;
+            padding: 6px 40px; 
+        }
+    }
+
+    &--wide {
+        width: 100%;
+    }
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+}
