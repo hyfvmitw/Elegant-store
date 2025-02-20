@@ -22,4 +22,5 @@ gulp
 gulp docs
 ```
 
-[Смотреть демо](https://user.github.io/repo/)
+[Смотреть демо](https://github.com/hyfvmitw/Elegant-store)
+
