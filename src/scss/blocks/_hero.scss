@@ -6,11 +6,10 @@
     background-size: cover;
     background-position: center;
 
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
+    @include mediaBg() {
         background-image: url(./../img/hero/bg@2x.jpg);
     }
-
+    
     @include tablet {
         height: 500px;
     }
@@ -20,10 +19,10 @@
         padding-bottom: 390px;
         background-image: url(./../img/hero/bg-mobile.jpg);
 
-        @media (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi) {
+        @include mediaBg() {
             background-image: url(./../img/hero/bg-mobile@2x.jpg);
         }
+        
     }
 }
 
