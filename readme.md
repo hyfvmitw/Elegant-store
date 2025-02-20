@@ -5,5 +5,5 @@
 - Gulp,
 - JS
 
-[Смотреть демо](https://hyfvmitw.github.io/Elegant-store/)
+[Смотреть демо](https://hyfvmitw.github.io/Elegant-store/){:target="_blank"}
 
