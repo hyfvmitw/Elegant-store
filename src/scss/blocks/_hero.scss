@@ -9,7 +9,7 @@
     @include mediaBg() {
         background-image: url(./../img/hero/bg@2x.jpg);
     }
-    
+
     @include tablet {
         height: 500px;
     }
@@ -22,7 +22,7 @@
         @include mediaBg() {
             background-image: url(./../img/hero/bg-mobile@2x.jpg);
         }
-        
+
     }
 }
 

@@ -1,3 +1,7 @@
 node_modules
 .webp
 .DS_Store
+src
+gulp
+build
+.vscode
