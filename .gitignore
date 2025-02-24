@@ -1,0 +1,8 @@
+# игнорируем всё в корне
+# /*
+# кроме папки /docs
+# !/docs
+
+node_modules
+.webp
+.DS_Store
